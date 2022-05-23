@@ -1,3 +1,5 @@
+# A dumb app using JSONPlaceholder api just to test the async actions with redux thunk, we are also moving redux to redux/toolkit after finishing this lil project with redux
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
