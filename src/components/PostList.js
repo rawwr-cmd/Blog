@@ -1,6 +1,7 @@
 import { Component } from "react";
-import { connect } from "react-redux";
+import { connect } from "react-redux"; //calling an action creator
 import { fetchPosts } from "../actions";
+import UserHeader from "./UserHeader";
 class PostList extends Component {
   componentDidMount() {
     //store.dispatch(fetchPosts())-->behind the scene
@@ -17,6 +18,7 @@ class PostList extends Component {
               <h2>{post.title}</h2>
               <p>{post.body}</p>
             </div>
+            <UserHeader userId={post.userId} />
           </div>
         </div>
       );
